@@ -24,3 +24,13 @@ if(process.env.NODE_ENV === 'dev'){
 
 process.env.URLDB = urlDB;
 
+//==================
+// TOKEN JWT
+//==================
+ process.env.SEED = 'este-es-un-seed';
+ process.env.CADUCIDAD_TOKEN = '2 days';
+
+//=================
+// GOOGLE CLIENT ID
+//=================
+process.env.CLIENT_ID = process.env.CLIENT_ID ||  '371363647997-v6pdsc87388iekpulj5srappra2308jg.apps.googleusercontent.com';
